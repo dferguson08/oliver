@@ -14,3 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - added knex file
 - added migration for basic vehicles table
 - created migration script `yarn migrate`
+
+## [unreleased] - 2018-02-05
+### added
+- Link to README.md file that Chris shared as a reference article
