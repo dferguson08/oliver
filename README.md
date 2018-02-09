@@ -6,4 +6,5 @@
 
 ### Commands:
 * docker-compose up
-* yarn migrate
+* Run migrations: yarn migrate
+* Create seed file: knex seed:make seed_name
