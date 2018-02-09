@@ -19,3 +19,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### added
 - Link to README.md file that Chris shared as a reference article
 - Reformatted README to properly show link in a web page
+
+## [unreleased] - 2018-02-09
+### added 
+- updated README to include commands section
+- 
