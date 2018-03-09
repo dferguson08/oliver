@@ -1,3 +1,14 @@
+/**
+ * @file
+ * configuration for Knex connections
+ *
+ * @author David Ferguson <davidferguson@dialexa.com>
+ * @copyright Dialexa 2018
+ * 03/02/2018
+ */
+
+'use strict';
+
 // Update with your config settings.
 require('dotenv').config();
 
@@ -23,7 +34,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
@@ -39,7 +50,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {

@@ -1,0 +1,30 @@
+{
+  "name": "oliver",
+  "version": "1.0.0",
+  "description": "Dialexa mentorship project",
+  "scripts": {
+    "migrate": "knex migrate:latest",
+    "seeds": "knex seed:run",
+    "lint": "eslint ./",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chance": "^1.0.13",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  },
+  "main": "server.js",
+  "repository": "git@github.com:dferguson08/oliver.git",
+  "author": "David Ferguson <davidferguson@dialexa.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@dialexa/eslint-config-dialexa": "^4.1.1",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0"
+  }
+}
