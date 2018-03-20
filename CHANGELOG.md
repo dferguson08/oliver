@@ -44,4 +44,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [unreleased] - 2018-03-02
 ## added
--
+
+
+## [unreleased] - 2018-03-09
+## added
+- separated project to server/app folder structure
+- created react app boilerplate folder's
+- removed precommit hook - overkill for project
+
+## [unreleased] - 2018-03-16
+## added 
+- 
