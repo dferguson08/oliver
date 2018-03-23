@@ -35,4 +35,4 @@ app.get('/inventory', async (req, res) => {
 // update app.get to app.get/vehicles
 // will be able to hit endpoint using postman to get list of vehicles using knex to read from DB.
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(3030, () => console.log('Example app listening on port 3030!'));
